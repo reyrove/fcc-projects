@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+#types-content span {
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  margin-top: 5px;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>Web Development Docs</header>
+    <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+    <a class="nav-link" href="#CSS_Styling">CSS Styling</a>
+    <a class="nav-link" href="#JavaScript_Fundamentals">JavaScript Fundamentals</a>
+    <a class="nav-link" href="#DOM_Manipulation">DOM Manipulation</a>
+    <a class="nav-link" href="#Responsive_Design">Responsive Design</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="HTML_Basics">
+      <header>HTML Basics</header>
+      <p>HTML stands for HyperText Markup Language.</p>
+      <p>It structures the content of web pages using elements.</p>
+      <p>Elements are represented by tags.</p>
+      <p>Common tags include &lt;p&gt;, &lt;div&gt;, &lt;h1&gt;-&lt;h6&gt;.</p>
+      <p>HTML is not case-sensitive but usually written in lowercase.</p>
+      <code>&lt;html&gt;&lt;/html&gt;</code>
+      <code>&lt;body&gt;&lt;/body&gt;</code>
+      <ul>
+        <li>Elements</li>
+        <li>Attributes</li>
+        <li>Tags</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="CSS_Styling">
+      <header>CSS Styling</header>
+      <p>CSS stands for Cascading Style Sheets.</p>
+      <p>It controls the appearance of HTML elements.</p>
+      <p>You can apply styles using inline, internal or external CSS.</p>
+      <p>CSS uses selectors to target elements.</p>
+      <p>It supports responsive design with media queries.</p>
+      <code>body { margin: 0; }</code>
+      <code>h1 { color: blue; }</code>
+      <ul>
+        <li>Selectors</li>
+        <li>Properties</li>
+        <li>Values</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="JavaScript_Fundamentals">
+      <header>JavaScript Fundamentals</header>
+      <p>JavaScript is a programming language for the web.</p>
+      <p>It allows dynamic interactions and updates on web pages.</p>
+      <p>Variables are declared using let, const, or var.</p>
+      <p>Functions encapsulate blocks of reusable code.</p>
+      <p>Events can be handled with addEventListener.</p>
+      <code>let x = 5;</code>
+      <code>function greet() { alert('Hi'); }</code>
+      <ul>
+        <li>Variables</li>
+        <li>Functions</li>
+        <li>Events</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="DOM_Manipulation">
+      <header>DOM Manipulation</header>
+      <p>The DOM represents the HTML document as a tree structure.</p>
+      <p>JavaScript can be used to access and modify DOM elements.</p>
+      <p>Common methods include getElementById and querySelector.</p>
+      <p>You can change content or styles using these methods.</p>
+      <p>Event listeners help interact with the DOM.</p>
+      <code>document.getElementById(\"demo\");</code>
+      <code>document.querySelector(\".box\");</code>
+      <ul>
+        <li>Access</li>
+        <li>Modify</li>
+        <li>Listen</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Responsive_Design">
+      <header>Responsive Design</header>
+      <p>Responsive design ensures your site looks good on all devices.</p>
+      <p>It uses flexible grids, images, and media queries.</p>
+      <p>CSS media queries apply styles based on screen size.</p>
+      <p>Frameworks like Bootstrap simplify responsive layouts.</p>
+      <p>Mobile-first design is a common approach.</p>
+      <code>@media (max-width: 600px) { body { font-size: 14px; } }</code>
+      <code>.container { max-width: 100%; }</code>
+      <ul>
+        <li>Media Queries</li>
+        <li>Flexbox/Grid</li>
+        <li>Mobile-first</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
+

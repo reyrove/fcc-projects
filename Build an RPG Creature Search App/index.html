@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RPG Creature Search App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>RPG Creature Search App</h1>
+    <input id="search-input" type="text" placeholder="Enter creature name or ID" required />
+    <button id="search-button">Search</button>
+
+    <div id="creature-info">
+      <p id="creature-name"></p>
+      <p id="creature-id"></p>
+    </div>
+
+    <div id="weight">
+      <p>Weight: <span id="weight-value">N/A</span></p>
+    </div>
+    <div id="height">
+      <p>Height: <span id="height-value">N/A</span></p>
+    </div>
+
+    <div id="types">
+      <p>Types: <span id="types-content">N/A</span></p>
+    </div>
+
+    <div id="hp">
+      <p>HP (Health Points): <span id="hp-value">N/A</span></p>
+    </div>
+    <div id="attack">
+      <p>Attack: <span id="attack-value">N/A</span></p>
+    </div>
+    <div id="defense">
+      <p>Defense: <span id="defense-value">N/A</span></p>
+    </div>
+    <div id="special-attack">
+      <p>Special Attack: <span id="special-attack-value">N/A</span></p>
+    </div>
+    <div id="special-defense">
+      <p>Special Defense: <span id="special-defense-value">N/A</span></p>
+    </div>
+    <div id="speed">
+      <p>Speed: <span id="speed-value">N/A</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+

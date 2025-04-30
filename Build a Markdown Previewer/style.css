@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 2rem;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .editor-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  #editor,
+  #preview {
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    height: 400px;
+    overflow: auto;
+  }
+  
+  #editor {
+    resize: none;
+  }
+  

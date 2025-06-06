@@ -1,0 +1,68 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f7f9fc;
+  color: #333;
+  margin: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#heat-map {
+  margin: 20px auto;
+  position: relative;
+}
+
+#tooltip {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  pointer-events: none;
+  position: absolute;
+  text-align: center;
+  z-index: 10;
+}
+
+#legend {
+  margin: 20px auto;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+#legend rect {
+  stroke: #333;
+  stroke-width: 1;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #333;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-size: 12px;
+  fill: #333;
+}
+
+h1#title {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+p#description {
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #555;
+}

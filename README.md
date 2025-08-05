@@ -33,3 +33,8 @@ Well, I’m not stopping here! Keep checking back for more mind-blowing projects
 
 - [Twitter](https://x.com/reyrove) 🐦
 - [LinkedIn](https://www.linkedin.com/in/reyhaneh-daneshdoost-730481160/) 📇
+
+
+## 📜 License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
